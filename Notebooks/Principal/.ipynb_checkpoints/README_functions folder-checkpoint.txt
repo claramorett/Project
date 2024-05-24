@@ -15,3 +15,8 @@ By creating dictionaries, these functions have made it possible to rank the vari
 
 
 More details concerning each function can be found in a seperate README file in the "function module".
+
+## visualizing.ipnyb
+
+Using RDKit, this function visualizes the molecules present in a given cream, and colors molecules deemed harmful. Some molecules contain harmful groups, and are only partially colored, since only these groups are colored. However, in this case, the molecules are not really harmful, since the harmful groups are contained in the molecule and not present on their own: their harmful effect is therefore cancelled out, or at least greatly reduced.
+Finally, this function posed a problem when it was first created, as Smiles and smarts structures were initially mixed. We therefore ended up using only Smiles structures.
